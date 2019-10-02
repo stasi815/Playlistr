@@ -15,6 +15,12 @@
         <p><form method='POST' action='/playlists/{{ playlist._id }}/delete'>
             <button type='submit'>Delete</button>
         </form></p>
+
+        <hr>
+
+    <!-- Comment form -->
+    {% include 'partials/comment_form.html' %}
+
      </div>
 </div>
 {% endblock %}
